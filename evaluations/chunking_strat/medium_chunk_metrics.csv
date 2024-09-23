@@ -1,0 +1,6 @@
+Metric,MediumChunk
+faithfulness,0.8953588522951268
+answer_relevancy,0.9554186934800531
+context_recall,0.9340277777777777
+context_precision,0.9374999999721645
+answer_correctness,0.6292674192183824

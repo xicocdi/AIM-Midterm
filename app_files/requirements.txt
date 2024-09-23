@@ -1,0 +1,13 @@
+chainlit==1.1.401
+cohere==4.37
+openai>=1.10.0,<2.0.0
+tiktoken==0.5.2
+python-dotenv==1.0.0
+langchain
+langchain_openai==0.1.1
+pypdf
+chromadb
+qdrant-client
+importlib-metadata<7.0,>=6.0
+sentence-transformers
+langchain_huggingface

@@ -1,0 +1,6 @@
+Metric,MultiQuery
+faithfulness,0.8968038152225203
+answer_relevancy,0.9532110694802333
+context_recall,0.890625
+context_precision,0.9207324735259621
+answer_correctness,0.690058377538071
