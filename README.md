@@ -251,7 +251,7 @@ multiquery_retriever = MultiQueryRetriever.from_llm(
 
 1. What is the story that you will give to the CEO to tell the whole company at the launch next month?
 
-The team has deployed a RAG based chat application that can answer a wide-range of questions that can helped the organization understand how the AI industry is evolving, especially as it relates to politics.
+The team has deployed a RAG-based chat application that can answer a wide range of questions, helping the organization understand how the AI industry is evolving, especially in relation to politics. It's powered by information from the Biden-Harris Administration's Blueprint for an AI Bill of Rights and the National Institute of Standards and Technology's report on Generative Artificial Intelligence Profile. The team has worked diligently to build an application that sheds light on complex AI topics, including the government's steps to ensure a safe yet ambitious approach to AI, and its perceived impact on the American people.
 
 1. There appears to be important information not included in our build, for instance, the [270-day update](https://www.whitehouse.gov/briefing-room/statements-releases/2024/07/26/fact-sheet-biden-harris-administration-announces-new-ai-actions-and-receives-additional-major-voluntary-commitment-on-ai/) on the 2023 executive order on [Safe, Secure, and Trustworthy AI](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/).  How might you incorporate relevant white-house briefing information into future versions?
 
