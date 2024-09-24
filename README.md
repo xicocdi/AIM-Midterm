@@ -87,7 +87,7 @@ We chose Chainlit since it provides a built in chat interface that is already si
 
 HuggingFace
 
-We are hosting our application on HuggingFace due to flexibility HuggingFace offers, the free cloud storage, and version control that is necessary for testing and deploying applications. HuggingFace also gives 
+We are hosting our application on HuggingFace due to flexibility HuggingFace offers, the free cloud storage, and version control that is necessary for testing and deploying applications.
 
 ## Task 3: Creating a Golden Test Data Set
 
@@ -249,11 +249,11 @@ multiquery_retriever = MultiQueryRetriever.from_llm(
 
 **You are the SVP of Technology**.  Given the work done by your team so far, you're now sitting down with the AI Solutions Engineer.  You have tasked the solutions engineer to test out the new application with at least 50 different internal stakeholders over the next month.
 
-1. What is the story that you will give to the CEO to tell the whole company at the launch next month?
+What is the story that you will give to the CEO to tell the whole company at the launch next month?
 
 The team has deployed a RAG-based chat application that can answer a wide range of questions, helping the organization understand how the AI industry is evolving, especially in relation to politics. It's powered by information from the Biden-Harris Administration's Blueprint for an AI Bill of Rights and the National Institute of Standards and Technology's report on Generative Artificial Intelligence Profile. The team has worked diligently to build an application that sheds light on complex AI topics, including the government's steps to ensure a safe yet ambitious approach to AI, and its perceived impact on the American people.
 
-1. There appears to be important information not included in our build, for instance, the [270-day update](https://www.whitehouse.gov/briefing-room/statements-releases/2024/07/26/fact-sheet-biden-harris-administration-announces-new-ai-actions-and-receives-additional-major-voluntary-commitment-on-ai/) on the 2023 executive order on [Safe, Secure, and Trustworthy AI](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/).  How might you incorporate relevant white-house briefing information into future versions?
+There appears to be important information not included in our build, for instance, the [270-day update](https://www.whitehouse.gov/briefing-room/statements-releases/2024/07/26/fact-sheet-biden-harris-administration-announces-new-ai-actions-and-receives-additional-major-voluntary-commitment-on-ai/) on the 2023 executive order on [Safe, Secure, and Trustworthy AI](https://www.whitehouse.gov/briefing-room/presidential-actions/2023/10/30/executive-order-on-the-safe-secure-and-trustworthy-development-and-use-of-artificial-intelligence/).  How might you incorporate relevant white-house briefing information into future versions?
 
 To keep our application current, we propose implementing an automated update process for V0.1. This will utilize Qdrant's cluster feature, an LLM-based classification function, and a batch scraping function. We'll create a function to scrape releases from the White House's briefing room ([whitehouse.com/briefing-room](http://whitehouse.com/briefing-room)) nightly. An LLM will then filter the content to identify AI-related documents. For relevant releases, we'll chunk the article using our existing strategy and embed the new content into our Qdrant database cluster.
 
