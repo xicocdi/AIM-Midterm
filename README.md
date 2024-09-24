@@ -130,13 +130,13 @@ Task 4: Generate synthetic fine-tuning data and complete fine-tuning of the open
 
 ✅ Deliverables
 
-1. Swap out your existing embedding model for the new fine-tuned version.  Provide a link to your fine-tuned embedding model on the Hugging Face Hub.
+Swap out your existing embedding model for the new fine-tuned version.  Provide a link to your fine-tuned embedding model on the Hugging Face Hub.
 
 [Fine-tuned embedding model](https://huggingface.co/XicoC/midterm-finetuned-arctic)
 
 Description: This is a [**sentence-transformers**](https://www.sbert.net/) model finetuned from [**Snowflake/snowflake-arctic-embed-m**](https://huggingface.co/Snowflake/snowflake-arctic-embed-m). It maps sentences & paragraphs to a 768-dimensional dense vector space and can be used for semantic textual similarity, semantic search, paraphrase mining, text classification, clustering, and more.
 
-1. How did you choose the embedding model for this application?
+How did you choose the embedding model for this application?
 
 I chose Snowflake/snowflake-arctic-embed-m for several reasons. First, my past experiences with this model have shown significant performance improvements after fine-tuning. The fine-tuning process itself is quick and cost-effective, which is a major advantage. Moreover, this model was pre-trained on a diverse corpus, providing us with a robust foundation for further fine-tuning. Finally, given its size and dimensionality, the model's base performance is already strong, indicating that fine-tuning could potentially boost our RAG system's performance even further. This impression is further reinforced by the model's popularity, evidenced by its **73,326** downloads in the past month alone.
 
